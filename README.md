@@ -9,30 +9,21 @@ This project investigates how Virtual Reality (VR) gaming influences cognitive p
 
 To analyze the amplitude and latency of P300 brain waves during VR gaming sessions to understand the influence on cognitive engagement, attention, memory, and decision-making processes.
 
-## Literature Survey
-
-The project builds on several key studies:
-- **Guger et al. (2018)**: Examined VR's impact on cognitive engagement and P300 brain waves.
-- **Rizzo et al. (2020)**: Explored neurofeedback applications in VR to enhance cognitive performance.
-- **Lee et al. (2019)**: Investigated the role of game complexity in eliciting cognitive responses.
-- **Zheng et al. (2021)**: Analyzed the impact of individual differences on P300 responses during VR gameplay.
-
-These studies provide valuable insights for optimizing VR experiences and designing engaging content.
-
 ## Methodology
 
-1. **VR Game Development**: A VR game was designed to target cognitive processes, ensuring immersive experiences and cognitive challenges.
+1. **VR Game Development**: A big ball small ball game was designed to target cognitive processes, ensuring immersive experiences and cognitive challenges. This game is suitable for all the age gropus including young and old participants. This game is efficient in trigerring the p300 signals. First the headband is used for the baseline cognitive assessment. After this the partipants play the game and their p300 signals amplitude and latency are used to calculate their attention span.
 2. **Participant Recruitment**: Participants were selected based on age, gender, and gaming experience. Informed consent was obtained.
 3. **Baseline Assessments**: Cognitive assessments were administered before VR sessions using validated tools.
-4. **Data Collection**: VR sessions were conducted in a controlled environment using high-density EEG to collect data on P300 brainwave activity.
-5. **Data Analysis**: EEG  data were preprocessed, followed by machine learning analysis to predict cognitive states.
-6. **Results Interpretation**: Findings were interpreted within a cognitive neuroscience framework, with practical implications for enhancing VR experiences.
+4. **Data Collection**: VR sessions were conducted in a controlled environment using high-density EEG to collect data on P300 brainwave activity. The data is collected over different channels of the headband which contains alpha, beta ,gamma  and delta signals. 
+5. **Data Analysis**: EEG  data were preprocessed, followed by machine learning analysis to predict cognitive states. 
+6. **Results Interpretation**: The participants are classified as focused , drowsy and unfocused state. 
 
 ## Results
 
 - **Attention Span**: Gamers exhibited shorter attention spans and faster transitions between focused, unfocused, and drowsy states.
 - **Cognitive Risks**: The gaming group showed an increased risk of conditions such as ADHD and dyslexia.
 - **Machine Learning**: Logistic regression was employed to classify and predict cognitive state transitions, providing statistical evidence of the observed differences.
+- This project even demonstrated the potential to detect neurological disorders like dislexia and autism. This could be detected if the alpha and beta signals are of the range 8 to 12uV.
 
 
 ## References
